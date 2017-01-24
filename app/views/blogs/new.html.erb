@@ -1,0 +1,16 @@
+<h1>Add new post</h1>
+
+<a href="/">
+  <button>Back</button>
+</a>
+
+<%= form_tag "/new" do %>
+    <p>Title:</p>
+<input type="text" name="name">
+    <p>Body:</p>
+<input type="text" name="content">
+    <button>
+      Save post
+    </button>
+    <% end %>
+
